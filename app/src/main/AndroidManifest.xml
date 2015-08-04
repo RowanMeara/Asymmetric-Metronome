@@ -19,8 +19,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Tutorial"
-            android:label="@string/title_activity_tutorial" >
+            android:name=".StartStopActivity"
+            android:label="@string/title_activity_start_stop"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.rrm89cornell.asymmetricmetronome.Main" />
         </activity>
     </application>
 
